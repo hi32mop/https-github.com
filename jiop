@@ -1,0 +1,587 @@
+--hi32mop
+--出品必是精品
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/xLRUSiKx"))()
+
+local Window = OrionLib:MakeWindow({Name = "hi32mop自制", HidePremium = false, SaveConfig = false, IntroText = "当前注入器："..identifyexecutor(), ConfigFolder = "hi32mop自制"})
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "极速传奇",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+local Section = Tab:AddSection({
+	Name = "功能"
+})
+
+
+
+Tab:AddButton({
+	Name = "开启卡宠",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87"))()		
+  	end
+})
+
+Tab:AddButton({
+	Name = "自动重生和自动刷等级",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87%E5%8A%9F%E8%83%BD"))()        
+  	end    
+})
+
+Tab:AddButton({
+	Name = "反挂机【防检测】",
+	Callback = function()
+		print("Anti Afk On")
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		   wait(1)
+		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "传送岛屿"
+})
+
+Tab:AddButton({
+	Name = "返还出生岛",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9682.98828125, 58.87917709350586, 3099.033935546875)      
+  	end    
+})
+
+Tab:AddButton({
+	Name = "白雪城",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9676.138671875, 58.87917709350586, 3782.69384765625)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "熔岩城",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11054.96875, 216.83917236328125, 4898.62841796875)       
+  	end    
+})
+
+Tab:AddButton({
+	Name = "传奇公路",
+	Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13098.87109375, 216.83917236328125, 5907.6279296875)    
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "造船寻宝",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+local Section = Tab:AddSection({
+	Name = "功能"
+})
+
+
+
+
+Tab:AddButton({
+	Name = "自动刷金条",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Lyy77rnr",true))()
+  	end
+})
+
+Tab:AddButton({
+	Name = "工具包（可破别人团队模式空气墙）",
+	Callback = function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()	
+  	end
+})
+
+Tab:AddButton({
+	Name = "普通飞行",
+	Callback = function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  	end
+})
+
+Tab:AddButton({
+	Name = "飞行装备（可控制物体）",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/main/feixing"))()		
+  	end
+})
+
+Tab:AddButton({
+	Name = "防止掉线（反挂机）",
+	Callback = function()
+	print("Anti Afk On")
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		   wait(1)
+		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blox fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "功能我懒得一个一个翻译，自己翻译"
+})
+
+
+Tab:AddButton({
+	Name = "Bloxfruit（hi32mop）",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/bf"))()
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "监狱人生",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "穿墙",
+	Default = false,
+	Callback = function(Value)
+		if Value then
+		    Noclip = true
+		    Stepped = game.RunService.Stepped:Connect(function()
+			    if Noclip == true then
+				    for a, b in pairs(game.Workspace:GetChildren()) do
+                        if b.Name == game.Players.LocalPlayer.Name then
+                            for i, v in pairs(game.Workspace[game.Players.LocalPlayer.Name]:GetChildren()) do
+                                if v:IsA("BasePart") then
+                                    v.CanCollide = false
+                                end
+                            end
+                        end
+                    end
+			    else
+				    Stepped:Disconnect()
+			    end
+		    end)
+	    else
+		    Noclip = false
+	    end
+	end
+})
+
+local Section = Tab:AddSection({
+	Name = "传送位置"
+})
+
+Tab:AddButton({
+	Name = "警卫室",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(847.7261352539062, 98.95999908447266, 2267.387451171875)
+  	end
+})
+
+Tab:AddButton({
+	Name = "监狱室内",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(919.2575073242188, 98.95999908447266, 2379.74169921875)
+  	end
+})
+
+Tab:AddButton({
+	Name = "罪犯复活点",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-937.5891723632812, 93.09876251220703, 2063.031982421875)
+  	end
+})
+
+Tab:AddButton({
+	Name = "监狱室外",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(760.6033325195312, 96.96992492675781, 2475.405029296875)
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "通用功能",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "跳跃高度设置",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end
+})
+
+Tab:AddTextbox({
+	Name = "移动速度设置",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end
+})
+
+Tab:AddTextbox({
+	Name = "重力设置",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Workspace.Gravity = Value
+	end
+})
+
+Tab:AddToggle({
+	Name = "夜视",
+	Default = false,
+	Callback = function(Value)
+		if Value then
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+		else
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "透视",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/toushi"))()
+  	end
+})
+
+Tab:AddToggle({
+	Name = "穿墙",
+	Default = false,
+	Callback = function(Value)
+		if Value then
+		    Noclip = true
+		    Stepped = game.RunService.Stepped:Connect(function()
+			    if Noclip == true then
+				    for a, b in pairs(game.Workspace:GetChildren()) do
+                        if b.Name == game.Players.LocalPlayer.Name then
+                            for i, v in pairs(game.Workspace[game.Players.LocalPlayer.Name]:GetChildren()) do
+                                if v:IsA("BasePart") then
+                                    v.CanCollide = false
+                                end
+                            end
+                        end
+                    end
+			    else
+				    Stepped:Disconnect()
+			    end
+		    end)
+	    else
+		    Noclip = false
+	    end
+	end
+})
+
+Tab:AddButton({
+	Name = "旋转脚本",
+	Callback = function()
+	--[[Fling GUI]]--
+--[[Made by topit]]--
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+--This link auto updates, so there's no need to update this file.
+  	end
+})
+
+Tab:AddButton({
+	Name = "高仿rtx",
+	Callback = function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Bkf0BJb3'))()
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "写信",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "家",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-59.31769943237305, 4, 139.8585205078125)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "地铁站粉色屋",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-336.7043151855469, -8.799999237060547, 27.4737548828125)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "雪地小屋",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-632.6862182617188, 22.921855926513672, 1240.6329345703125)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "雪地底下室屋",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-633.072021484375, 9.986831665039062, 1746.341796875)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "生锈钥匙屋",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-361.3365478515625, 116.0632553100586, 1242.3211669921875)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "商店",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-594.1866455078125, 21.199995040893555, 229.34286499023438)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "图书馆",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1035.0284423828125, 504.34991455078125, -333.1011962890625)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "挎包所在地",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-452.4971008300781, 14.276798248291016, 2389.57275390625)   
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "忍者传奇",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "脚本",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/5repo/main/script4.lua"))()
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "脚本",
+	Callback = function()
+	loadstring(game:
+HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "scp",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "手枪所在地",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-243.4503936767578, 3.9999990463256836, -104.73697662353516)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "防弹衣",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-101.86564636230469, 3.9999990463256836, -161.36709594726562)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "医疗室",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-88.24040985107422, 3.9999990463256836, -160.43878173828125)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "保安头",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-98.511474609375, 3.9999990463256836, -121.61361694335938)   
+  	end    
+})
+
+Tab:AddButton({
+	Name = "夜视仪",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-331.40484619140625, 3.9999990463256836, -12.149640083312988)   
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "tds",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "刷宝石的"
+})
+
+Tab:AddButton({
+	Name = "刷宝石",
+	Callback = function()
+	local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/banbuskox/dfhtyxvzexrxgfdzgzfdvfdz/main/ckmhjvskfkmsStratFun2", true))() 
+TDS:Loadout("Ace Pilot", "Freezer", "Military Base", "nil", "nil") 
+TDS:Map("Wrecked Battlefield", true, "Hardcore")
+TDS:Skip(1, 0, 10)
+TDS:Place('Ace Pilot', 6.402982711791992, 3.599977731704712, 19.020751953125, 1, 0, 4)
+TDS:Skip(2, 0, 13)
+TDS:Upgrade(1, 2, 0, 3)
+TDS:Skip(3, 0, 13)
+TDS:Upgrade(1, 3, 0, 2)
+TDS:Skip(4, 0, 16)
+TDS:Skip(5, 0, 19)
+TDS:Place('Ace Pilot', 6.514863967895508, 3.5999786853790283, 14.93996810913086, 5, 0, 4)
+TDS:Skip(6, 0, 19)
+TDS:Upgrade(2, 6, 0, 4)
+TDS:Upgrade(2, 6, 0, 2)
+TDS:Skip(7, 0, 29)
+TDS:Skip(8, 0, 19)
+TDS:Skip(9, 0, 19)
+TDS:Place('Military Base', -24.497882843017578, 3.5999879837036133, 33.85475158691406, 9, 0, 3)
+TDS:Upgrade(3, 9, 0, 3)
+TDS:Upgrade(3, 9, 0, 3)
+TDS:Skip(10, 0, 19)
+TDS:Place('Military Base', -28.7856388092041, 3.5999937057495117, 38.15911865234375, 10, 0, 3)
+TDS:Upgrade(4, 10, 0, 2)
+TDS:Upgrade(4, 10, 0, 2)
+TDS:Skip(11, 0, 19)
+TDS:Skip(12, 0, 19)
+TDS:Place('Military Base', -33.54076385498047, 3.59999418258667, 38.09883117675781, 12, 0, 2)
+TDS:Upgrade(5, 12, 0, 2)
+TDS:Upgrade(5, 12, 0, 2)
+TDS:Skip(13, 0, 19)
+TDS:Place('Military Base', -29.121105194091797, 3.5999202728271484, 33.5185661315918, 13, 0, 3)
+TDS:Upgrade(6, 13, 0, 2)
+TDS:Upgrade(6, 13, 0, 2)
+TDS:Skip(14, 0, 23)
+TDS:Skip(15, 0, 26)
+TDS:Place('Military Base', -34.099525451660156, 3.599994659423828, 33.405433654785156, 15, 0, 3)
+TDS:Upgrade(7, 15, 0, 2)
+TDS:Upgrade(7, 15, 0, 2)
+TDS:Place('Freezer', 0.4176907539367676, 0.9999408721923828, 31.28122329711914, 16, 0, 52)
+TDS:Target(8, 16, 0, 51)
+TDS:Target(8, 16, 0, 51)
+TDS:Upgrade(8, 16, 0, 46)
+TDS:Skip(16, 0, 39)
+TDS:Place('Freezer', 16.872705459594727, 0.9999504089355469, 17.812725067138672, 16, 0, 1)
+TDS:Upgrade(9, 17, 3, 0)
+TDS:Target(9, 17, 2, 59)
+TDS:Target(9, 17, 2, 59)
+TDS:Place('Freezer', -3.082934856414795, 0.9999523162841797, 14.512789726257324, 17, 2, 45)
+TDS:Target(10, 17, 2, 43)
+TDS:Target(10, 17, 2, 43)
+TDS:Upgrade(10, 17, 0, 4)
+TDS:Place('Freezer', -14.471782684326172, 0.9999637603759766, -1.8229374885559082, 18, 1, 0)
+TDS:Target(11, 18, 0, 58)
+TDS:Target(11, 18, 0, 58)
+TDS:Skip(18, 0, 39)
+TDS:Upgrade(11, 18, 0, 5)
+TDS:Place('Freezer', 4.296613693237305, 0.9999723434448242, -13.630016326904297, 18, 0, 2)
+TDS:Upgrade(12, 18, 0, 1)
+TDS:Target(12, 19, 0, 59)
+TDS:Target(12, 19, 0, 58)
+TDS:Skip(19, 0, 39)
+TDS:Place('Freezer', 17.407508850097656, 0.9999790191650391, -23.53387451171875, 20, 1, 20)
+TDS:Upgrade(13, 20, 1, 19)
+TDS:Target(13, 20, 1, 18)
+TDS:Target(13, 20, 1, 18)
+TDS:Place('Freezer', 20.417007446289062, 0.9999794960021973, -23.460052490234375, 20, 1, 15)
+TDS:Target(14, 20, 1, 14)
+TDS:Target(14, 20, 1, 14)
+TDS:Upgrade(14, 20, 0, 58)
+TDS:Skip(20, 0, 53)
+TDS:Place('Freezer', 18.997451782226562, 0.999976634979248, -20.357091903686523, 20, 0, 2)
+TDS:Upgrade(15, 20, 0, 1)
+TDS:Target(15, 20, 0, 1)
+TDS:Target(15, 20, 0, 1)
+TDS:Sell(8, 21, 0, 49)
+TDS:Place('Freezer', 19.084562301635742, 0.9999814033508301, -26.573205947875977, 21, 0, 45)
+TDS:Target(16, 21, 0, 44)
+TDS:Target(16, 21, 0, 43)
+TDS:Skip(21, 0, 40)
+TDS:Sell(10, 22, 1, 14)
+TDS:Sell(9, 22, 1, 11)
+TDS:Skip(22, 0, 53)        
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "公告",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "更新v"
+})
+
+Tab:AddButton({
+	Name = "3月16日创建此脚本1.1v写信更新挎包传送点1.2v新增ui忍者传奇1.3v新增ui DOORS",
+  	Callback = function()
+  	end
+})
+
+Tab:AddButton({
+	Name = "1.3v通用增加rtx高仿光影1.4v新增ui SCP1.5v新增tds",
+	Callback = function()
+  	end
+})
+
+local Section = Tab:AddSection({
+	Name = "公告"
+})
+
+Tab:AddButton({
+	Name = "更新会定期",
+	Callback = function()
+  	end
+})
+
+Tab:AddButton({
+	Name = "脚本交流群742810207",
+	Callback = function()
+  	end
+})
+
+
+
+OrionLib:Init()
